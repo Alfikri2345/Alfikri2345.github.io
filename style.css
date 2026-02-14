@@ -204,17 +204,32 @@ footer small{
   }
 }
 /* Responsive */
+/* Tablet */
 @media (max-width: 980px){
   nav.menu{display:none}
   .menu-toggle{display:inline-block}
   .hero-grid{grid-template-columns:1fr}
-  .grid-3, .portfolio, .testi, .posts{grid-template-columns:1fr 1fr}
+  .grid-3,
+  .portfolio,
+  .testi,
+  .posts{
+    grid-template-columns:1fr 1fr;
+  }
   .contact-wrap{grid-template-columns:1fr}
-  .foot-grid{grid-template-columns:1fr 1fr}
 }
-@media (max-width: 620px){
-  .grid-3, .portfolio, .testi, .posts{grid-template-columns:1fr}
-  .foot-grid{grid-template-columns:1fr}
+
+/* Mobile */
+@media (max-width: 768px){
+  .grid-3,
+  .portfolio,
+  .testi,
+  .posts{
+    grid-template-columns:1fr;
+  }
+
+  .foot-grid{
+    grid-template-columns:1fr;
+  }
 }
 /* Skip link & accessibility */
 .skip-link{
