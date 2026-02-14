@@ -231,6 +231,19 @@ footer small{
     grid-template-columns:1fr;
   }
 }
+/* Mobile button adjustment */
+@media (max-width: 768px){
+  .btn{
+    padding:10px 14px;
+    font-size:14px;
+  }
+
+  .nav-actions .btn{
+    padding:8px 12px;
+    font-size:13px;
+  }
+}
+
 /* Skip link & accessibility */
 .skip-link{
   position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;
